@@ -1,0 +1,51 @@
+.tabla_cambios{
+    border: 1px;
+    border-color: #333;
+    border-style: solid;
+    border-collapse: collapse;
+    font-family: Helvetica;
+}
+
+th, td {
+    border: 1px;
+    border-color:#333;
+    border-style: solid;
+    border-collapse: collapse;
+    padding: 10px;
+    
+}
+
+th{
+    text-align: left;
+    background-color: #e6f3ff;
+    background-image: url('../img/euro.png');
+
+}
+.tabla_cambios th[scope=col] {
+    text-align: center;
+    background-image: url('../img/fondo_gris.gif');
+
+}
+.tabla_cambios th[scope=row] {
+    text-align: left;
+    background-image: url('../img/fondo_gris.gif');
+
+}
+.tabla_cambios th:nth{
+    /*background-color: #fffffc;*/
+    background-color: khaki;
+    
+}
+.tabla_cambios tr:nth-of-type(2){
+    /*background-color: #fffffc;*/
+    background-color: khaki;
+    
+}
+.tabla_cambios tr:nth-of-type(4){
+    /*background-color: #fffffc;*/
+    background-color: khaki;
+    
+}
+td{
+    text-align: right;    
+}
